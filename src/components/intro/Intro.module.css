@@ -1,0 +1,140 @@
+.intro {
+  padding-inline: 5%;
+  margin-block: 50px;
+}
+
+.introSpan {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main h1 {
+  font-size: 100px;
+  margin-top: 0;
+}
+
+.left {
+  width: 44%;
+}
+
+.right {
+  width: 44%;
+}
+
+.paraBig {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.paraSmall {
+  font-size: 20px;
+  color: #2A2523;
+}
+
+.right img {
+  width: 100%;
+  height: 680px;
+}
+
+.right p {
+  display: none;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (width <=1210px) {
+  .main h1 {
+    font-size: 90px;
+  }
+
+  .paraBig {
+    font-size: 25px;
+  }
+
+  .paraSmall {
+    font-size: 15px;
+  }
+
+  .right img {
+    height: 580px;
+  }
+}
+
+@media (width <=1050px) {
+  .main h1 {
+    font-size: 80px;
+  }
+
+  .paraBig {
+    font-size: 20px;
+  }
+
+  .paraSmall {
+    font-size: 12px;
+  }
+
+  .right img {
+    height: 550px;
+  }
+}
+
+@media (width <=850px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .paraBig {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .paraSmall {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .right img {
+    height: 450px;
+  }
+
+  .right p {
+    display: block;
+  }
+}
+
+@media (width <=650px) {
+  .main h1 {
+    font-size: 70px;
+  }
+
+  .paraBig {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .paraSmall {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .right img {
+    height: 450px;
+  }
+}
