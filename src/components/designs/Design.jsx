@@ -1,10 +1,7 @@
 import React from 'react'
 import styles from './Design.module.css'
-import image1 from '../../assets/images/image1.png'
-import image2 from '../../assets/images/image2.png'
-import image3 from '../../assets/images/image3.png'
 
-const Design = () => {
+const Design = ({ image1, image2, image3 }) => {
   return (
     <section className={styles.designs}>
       <div className={styles.left}>

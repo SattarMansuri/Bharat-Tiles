@@ -9,10 +9,9 @@
   font-family: 'Inter', sans-serif;
 }
 
-
 @font-face {
-  font-family: Gloock;
-  src: url('/src/assets/fonts/Gloock-Regular.ttf');
+  font-family: bentonSans;
+  src: url('/src/assets/fonts/BentonSans\ Regular.otf')
 }
 
 body {

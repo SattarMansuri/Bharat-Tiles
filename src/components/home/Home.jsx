@@ -27,7 +27,11 @@ const Home = () => {
       </nav>
       <div className={styles.change}>
         <h2>100 years of</h2>
-        <h1>CRAFTMANSHIP</h1>
+        <h1>
+          <span>INNOVATION</span>
+          <span>CRAFTMANSHIP</span>
+          <span>EXCELLENCE</span>
+        </h1>
       </div>
       <Featured />
       {click ? <div className={styles.sidebar}>

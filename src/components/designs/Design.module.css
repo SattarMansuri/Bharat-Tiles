@@ -2,7 +2,6 @@
   height: 1083px;
   display: flex;
   width: 100%;
-  margin-block: 50px;
 }
 
 .left {
@@ -34,5 +33,15 @@
 
   .right {
     width: 100%;
+  }
+
+  .right img {
+    min-height: 200px;
+  }
+}
+
+@media (width <=560px) {
+  .designs {
+    height: 750px;
   }
 }
