@@ -2,31 +2,25 @@
   background-color: #F4F4F4;
   padding-block: 50px;
   position: relative;
+  padding-inline: 5%;
 }
 
-.workbench h1 {
-  font-family: 'Gloock';
+.workbench h2 {
   text-align: center;
-  margin-top: 50px;
-  font-size: 100px;
-  font-weight: 400;
+  margin-top: 100px;
 }
 
-.workbench p {
+.moto {
   text-align: center;
   margin-top: 30px;
-  font-size: 30px;
-  font-weight: 500;
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .main {
-  margin-top: 30px;
-  width: 90%;
+  margin-top: 100px;
   display: flex;
   height: 1167px;
-  margin-left: 5%;
 }
 
 .left {
@@ -41,8 +35,14 @@
 .right {
   width: 50%;
   background-color: #ffffff;
-  padding-inline: 40px;
+  padding-left: 80px;
   padding-block: 100px;
+}
+
+.right img {
+  height: 572px;
+  margin-block: 50px;
+
 }
 
 .para {
@@ -53,25 +53,19 @@
 
 .para p {
   width: 40%;
-  font-size: 16px;
-  font-weight: 400;
   text-align: left;
 }
 
-.mid {
-  margin-top: 50px;
-}
-
-.mid img {
-  width: 80%;
+.size {
+  display: flex;
+  gap: 100px;
 }
 
 .lower {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin-left: 5%;
-  margin-block: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .colors {
@@ -116,70 +110,110 @@
   height: 100%;
 }
 
-@media (width <=1210px) {
-  .workbench h1 {
-    font-size: 90px;
+@media (width <=1536px) {
+  .workbench h2 {
+    margin-top: 50px;
   }
 
-  .workbench p {
-    font-size: 23px;
+  .moto {
     width: 80%;
     margin-left: 10%;
   }
 
   .main {
-    height: 950px;
+    height: 780px;
   }
 
   .right {
-    padding-block: 70px;
+    padding-block: 0px;
+  }
+
+  .right img {
+    height: 386px;
+  }
+
+  .para {
+    margin-top: 30px;
   }
 
   .para p {
-    font-size: 13px;
+    width: 100%;
   }
 }
 
-@media (width <=1050px) {
-  .workbench p {
-    width: 90%;
-    margin-left: 5%;
+@media (width <=1280px) {
+  .workbench h2 {
+    margin-top: 40px;
+  }
+
+  .moto p {
+    width: 100%;
+    margin-left: 0;
   }
 
   .main {
-    height: 950px;
+    height: 720px;
   }
 
   .right {
-    padding-block: 70px;
+    padding-block: 35px;
+    padding-left: 50px;
+  }
+
+  .right img {
+    height: 340px;
+    margin-block: 40px;
+  }
+
+  .para {
+    margin-top: 25px;
   }
 }
 
-@media (width <=950px) {
-  .workbench h1 {
-    font-size: 80px;
-  }
-
-  .workbench p {
-    font-size: 20px;
+@media (width <=1024px) {
+  .workbench h2 {
+    margin-top: 40px;
   }
 
   .main {
-    height: 800px;
+    height: 650px;
   }
 
-  .para p {
-    font-size: 13px;
-    margin-top: 0;
+  .right {
+    padding-block: 10px;
+    padding-left: 40px;
+  }
+
+  .right img {
+    height: 300px;
+    margin-block: 20px;
+  }
+
+  .para {
+    margin-top: 25px;
+  }
+
+  .size {
+    gap: 70px;
   }
 }
 
-@media (width <=850px) {
+@media (width <=768px) {
   .workshop {
     display: block;
   }
 
-  .workbench h1 {
+  .workbench {
+    padding-bottom: 0;
+    padding-inline: 0;
+  }
+
+  .workbench h2 {
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .moto {
     text-align: left;
     margin-left: 5%;
   }
@@ -187,14 +221,16 @@
   .main {
     width: 100%;
     margin-left: 0;
+    margin-top: 0;
+  }
+
+  .workbench span {
+    display: block;
+    margin-left: 5%;
   }
 
   .work {
     display: none;
-  }
-
-  .main {
-    margin-top: 0;
   }
 
   .right {
@@ -213,32 +249,13 @@
     display: block;
   }
 
-  .workbench button {
-    margin-right: 50px;
-    height: 50px;
-    font-size: 16px;
-  }
-
-  .workbench p {
-    font-weight: 400;
-  }
-
-  .workbench span {
-    padding-left: 10px;
+  .imagediv button {
+    margin-right: 5%;
   }
 }
 
-@media (width <=650px) {
-  .workbench h1 {
-    font-size: 40px;
-  }
-
-  .workbench p {
-    text-align: left;
-  }
-
+@media (width <=680px) {
   .imagediv {
-    height: 120px;
+    height: 100px;
   }
-
 }

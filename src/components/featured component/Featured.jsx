@@ -5,28 +5,28 @@ import gallery2 from '../../assets/images/gallery2.svg'
 import gallery3 from '../../assets/images/gallery3.svg'
 import { FaArrowRight } from "react-icons/fa6";
 
-const Featured = () => {
+const Featured = ({ name, design, flexDirection, alignItems, publish }) => {
   return (
     <div className={styles.featured}>
-      <div className={styles.featuredDiv}>
+      <div style={{ flexDirection: flexDirection }} className={styles.featuredDiv}>
         <div className={styles.featuredImg}>
           <img src={gallery1} alt="" />
           <img src={gallery2} alt="" />
           <img src={gallery3} alt="" />
         </div>
         <div className={styles.bottom}>
-          <p>LUXOTEL, Art Gallery Goa</p>
-          <p>Designed by Xyz, Firdaus Designer</p>
+          <p>{name}</p>
+          <p>{design}</p>
         </div>
       </div>
-      <div className={styles.featuredText}>
+      <div style={{ alignItems: alignItems }} className={styles.featuredText}>
         <div className={styles.bottom}>
-          <p>Featured in Vogue magazine, Feb 2023</p>
+          <p>{publish}</p>
         </div>
       </div>
-      <div className={styles.featuredText}>
+      <div style={{ alignItems: alignItems }} className={styles.featuredText}>
         <div className={styles.bottom}>
-          <button>View Project <FaArrowRight /></button>
+          <button>View Project <FaArrowRight className={styles.arrow} /></button>
         </div>
       </div>
     </div>

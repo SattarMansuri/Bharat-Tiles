@@ -1,0 +1,14 @@
+import React from 'react'
+import './small-comp.css'
+import Featured from '../featured component/Featured'
+
+
+const Project = () => {
+  return (
+    <div className='project'>
+      <Featured name={'Fabien Charuau'} design={'Les Bouchons'} publish={'Featured in Time magazine, Nov 2021'} />
+    </div>
+  )
+}
+
+export default Project

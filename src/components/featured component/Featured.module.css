@@ -1,13 +1,8 @@
 .featured {
-  width: 90%;
-  color: #ffffff;
   font-size: 16px;
   height: 168px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  top: 80%;
-  left: 5%;
 }
 
 .featuredImg {
@@ -32,7 +27,6 @@
 .featuredText {
   display: flex;
   justify-content: center;
-  align-items: last baseline;
 }
 
 .featured button {
@@ -43,9 +37,26 @@
   align-items: center;
   gap: 3px;
   margin-right: 5px;
-  color: #ffffff;
   font-size: 16px;
   cursor: pointer;
+  height: 30px;
+  width: 150px;
+}
+
+
+.featured button:hover {
+  border: 1px solid;
+}
+
+@media (width <=1550px) {
+  .featured {
+    height: 125px;
+    top: 85%;
+  }
+
+  .featuredImg img {
+    width: 22%;
+  }
 }
 
 @media (width <=1050px) {
@@ -78,7 +89,7 @@
   }
 
   .featuredText {
-    align-items: center;
+    align-items: center !important;
   }
 
   .bottom {

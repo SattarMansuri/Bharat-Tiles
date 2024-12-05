@@ -11,9 +11,11 @@ import image3 from './assets/images/image3.png'
 import image4 from './assets/images/image4.png'
 import image5 from './assets/images/image5.png'
 import image6 from './assets/images/image6.png'
+import Project from './components/small components/Project'
+import Manufacturing from './components/manufacturing/Manufacturing'
+import Footer from './components/footer/Footer'
 
 function App() {
-
 
   return (
     <>
@@ -24,6 +26,9 @@ function App() {
       <WorkBench />
       <Products />
       <Design image1={image4} image2={image5} image3={image6} />
+      <Project />
+      <Manufacturing />
+      <Footer />
     </>
   )
 }

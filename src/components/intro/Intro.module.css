@@ -1,40 +1,31 @@
 .intro {
   padding-inline: 5%;
-  padding-block: 50px;
+  padding-block: 100px;
   background-color: #FEFEF2;
-}
-
-.introSpan {
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
-  margin-bottom: 50px;
 }
 
 .main {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 150px;
 }
 
-.main h1 {
-  font-size: 100px;
-  margin-top: 0;
-  font-family: "Gloock", sans-serif;
-  font-weight: 400;
+.main h2 {
+  width: 70%;
 }
 
 .left {
-  width: 44%;
+  width: 45%;
 }
 
 .right {
-  width: 44%;
+  width: 50%;
 }
 
 .paraBig {
-  font-size: 30px;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
 }
 
 .paraSmall {
@@ -44,7 +35,7 @@
 
 .right img {
   width: 100%;
-  min-height: 680px;
+  min-height: 687px;
 }
 
 .right p {
@@ -54,13 +45,19 @@
   margin-top: 10px;
 }
 
-@media (width <=1210px) {
-  .main h1 {
-    font-size: 90px;
+@media (width <=1536px) {
+  .intro {
+    padding-block: 55px;
+  }
+
+  .main {
+    margin-bottom: 50px;
+    margin-top: 70px;
   }
 
   .paraBig {
-    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 68px;
   }
 
   .paraSmall {
@@ -68,17 +65,25 @@
   }
 
   .right img {
-    min-height: 580px;
+    height: 540px;
   }
+
 }
 
-@media (width <=1050px) {
-  .main h1 {
-    font-size: 80px;
+@media (width <=1280px) {
+
+  .main {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .main h2 {
+    width: 90%;
   }
 
   .paraBig {
     font-size: 20px;
+    margin-bottom: 40px;
   }
 
   .paraSmall {
@@ -86,11 +91,39 @@
   }
 
   .right img {
-    height: 550px;
+    height: 530px;
   }
 }
 
-@media (width <=850px) {
+@media (width <=1024px) {
+  .main {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .main h2 {
+    width: 90%;
+  }
+
+  .paraBig {
+    margin-bottom: 40px;
+  }
+
+  .paraSmall {
+    font-size: 12px;
+  }
+
+  .right img {
+    height: 450px;
+  }
+}
+
+@media (width <=768px) {
+
+  .intro {
+    padding-block: 50px;
+  }
+
   .main {
     flex-direction: column;
   }
@@ -104,8 +137,7 @@
   }
 
   .paraBig {
-    font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .paraSmall {
@@ -114,7 +146,7 @@
   }
 
   .right img {
-    height: 450px;
+    height: auto;
   }
 
   .right p {
@@ -122,22 +154,18 @@
   }
 }
 
-@media (width <=650px) {
-  .main h1 {
-    font-size: 70px;
-  }
-
-  .paraBig {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-
-  .paraSmall {
-    font-size: 16px;
-    margin-bottom: 20px;
+@media (width <=640px) {
+  .intro {
+    padding-block: 35px;
   }
 
   .right img {
-    height: 450px;
+    height: 300px;
+  }
+}
+
+@media (width <=475px) {
+  .intro {
+    padding-block: 20px;
   }
 }

@@ -1,0 +1,155 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  height: 125px;
+  position: relative;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo div {
+  background-color: #2A2523;
+  width: 102px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px 10px 10px;
+}
+
+.logo img {
+  width: 90%;
+}
+
+.one {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+.navigations {
+  width: 65%;
+  display: flex;
+  font-weight: 500;
+  padding-top: 20px;
+  font-size: 16px;
+  height: 100%;
+}
+
+.navigations a {
+  cursor: pointer;
+  color: #ffffff;
+  position: relative;
+  margin-top: 40px;
+}
+
+.navigations :nth-child(1) {
+  width: 100%;
+}
+
+.navigations :nth-child(2) {
+  width: 100%;
+}
+
+.navigations :nth-child(3) {
+  width: 100%;
+}
+
+.navigations :nth-child(4) {
+  width: 100%;
+}
+
+a:hover {
+  .one {
+    display: block;
+  }
+}
+
+
+.hammenu {
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+  position: relative;
+  margin-top: 20px;
+}
+
+.hammenu div {
+  width: 40px;
+  height: 2px;
+  margin: 8px 0;
+  transition: 0.4s;
+  background-color: #ffffff;
+}
+
+.sidebar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  padding-top: 100px;
+  padding-inline: 20px;
+  background-color: #ffffff16;
+  display: none;
+  top: 0;
+}
+
+.sidebar a {
+  color: #ffffff;
+}
+
+@media (width <=1030px) {
+  .logo div {
+    width: 80px;
+    height: 90px;
+    padding: 20px 10px 10px 10px;
+  }
+}
+
+@media (width <=768px) {
+  .logo div {
+    width: 60px;
+    height: 75px;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .navigations {
+    display: none;
+  }
+
+  .hammenu {
+    display: inline-block;
+  }
+
+  .sidebar {
+    display: flex;
+  }
+}
+
+
+@media (width <=495px) {
+  .sidebar {
+    min-width: 100%;
+    padding-inline: 0;
+    align-items: center;
+    background-color: #ffffff8d;
+  }
+
+  .sidebar a {
+    color: #000000;
+  }
+}

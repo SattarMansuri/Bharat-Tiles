@@ -1,0 +1,169 @@
+.project {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: #FEFEF4;
+  padding-inline: 5%;
+}
+
+.intro-span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.colors {
+  height: 352px;
+  width: 3.5%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.color-text {
+  writing-mode: vertical-lr;
+  rotate: 90;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.lists {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.heading-comp {
+  font-size: 100px;
+  line-height: 100px;
+  font-family: "Gloock", sans-serif;
+  font-weight: 400;
+}
+
+.para-big {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.para-small {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.lists:hover {
+  text-decoration: underline;
+}
+
+@media(width <=1536px) {
+  .heading-comp {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .para-big {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .para-small {
+    line-height: 20px;
+  }
+
+  .colors {
+    height: 250px;
+  }
+}
+
+@media (width <=1280px) {
+  .heading-comp {
+    font-size: 68px;
+    line-height: 68px;
+  }
+
+  .para-big {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .para-small {
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  .colors {
+    height: 200px;
+  }
+
+  .lists {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (width <=1024px) {
+  .heading-comp {
+    font-size: 54px;
+    line-height: 54px;
+  }
+
+  .para-small {
+    font-size: 11px;
+  }
+
+  .colors {
+    height: 150px;
+  }
+
+  .lists {
+    font-size: 9px;
+    line-height: 15px;
+  }
+
+  .intro-span {
+    font-size: 13px;
+  }
+}
+
+@media (width <=768px) {
+  .heading-comp {
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  .para-big {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .para-small {
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .intro-span {
+    display: none;
+  }
+
+  .lists {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .colors {
+    height: 16px;
+  }
+
+  .project {
+    padding-top: 100px;
+  }
+}
+
+@media (width <=640px) {
+  .heading-comp {
+    font-size: 33px;
+    line-height: 33px;
+  }
+
+}

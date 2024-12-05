@@ -26,7 +26,23 @@
   height: 100%;
 }
 
-@media (width <=850px) {
+@media (width <=1536px) {
+  .designs {
+    height: 730px;
+  }
+}
+
+@media (width <=1280px) {
+  .designs {
+    height: 680px;
+  }
+}
+
+@media (width <=768px) {
+  .designs {
+    min-height: 100vhnpm;
+  }
+
   .left {
     display: none;
   }
@@ -36,12 +52,6 @@
   }
 
   .right img {
-    min-height: 200px;
-  }
-}
-
-@media (width <=560px) {
-  .designs {
-    height: 750px;
+    min-height: 250px;
   }
 }
