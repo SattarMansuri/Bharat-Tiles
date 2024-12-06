@@ -13,16 +13,10 @@ const Header = () => {
           </div>
         </div>
         <div className={styles.navigations}>
-          <a>Products
-            <div className={styles.one}></div>
-          </a>
+          <a>Products</a>
           <a>Services</a>
-          <a>About
-            <div className={styles.one}></div>
-          </a>
-          <a>Inspiration
-            <div className={styles.one}></div>
-          </a>
+          <a>About</a>
+          <a>Inspiration</a>
         </div>
         <div onClick={() => setClick(!click)} className={styles.hammenu}>
           <div className={`${click && "first"}`}></div>

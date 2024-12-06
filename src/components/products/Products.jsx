@@ -11,7 +11,7 @@ import menu from '../../assets/images/menu.svg'
 
 const Products = () => {
   return (
-    <div className={styles.products}>
+    <section className={styles.products}>
       <div className={styles.upper}>
         <IntroSpan leftText={'69 products'} midText={'30colors'} rightText={'100 years'} />
         <div className={styles.mid}>
@@ -34,7 +34,7 @@ const Products = () => {
           </h1>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

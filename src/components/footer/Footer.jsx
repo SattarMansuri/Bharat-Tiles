@@ -9,7 +9,7 @@ import darkLogo from '../../assets/images/logo-dark.svg'
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <div className={styles.logo}>
         <img src={logo} alt='Bharat flooring and tiles logo' />
       </div>
@@ -77,7 +77,7 @@ const Footer = () => {
         </ul>
       </div>
       <ParaSmall para={'Copyright - Bharat Floorings and Tiles © 2024 All images and text are copyrighted unless otherwise specified.'} />
-    </div>
+    </footer>
   )
 }
 

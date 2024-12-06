@@ -4,7 +4,6 @@ import tiles from '../../assets/images/bharat-tiles.png'
 import IntroSpan from '../small components/IntroSpan'
 import Heading from '../small components/Heading'
 import ParaBig from '../small components/ParaBig'
-import manufacturing from '../../assets/videos/manufacturing.mp4'
 
 const Intro = () => {
   return (
@@ -22,7 +21,6 @@ const Intro = () => {
         </div>
         <div className={styles.right}>
           <img src={tiles} alt="" />
-          {/* <video className={styles.video} controls src={manufacturing}></video> */}
           <p>A century year old technique which is still relevant</p>
         </div>
       </div>

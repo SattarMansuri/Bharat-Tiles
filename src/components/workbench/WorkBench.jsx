@@ -8,7 +8,7 @@ import ParaSmall from '../small components/ParaSmall'
 
 const WorkBench = () => {
   return (
-    <div className={styles.workbench}>
+    <section className={styles.workbench}>
       <div className={styles.work}>
         <Heading heading={'Workbench'} />
       </div>
@@ -61,7 +61,7 @@ const WorkBench = () => {
         <span>Change tile</span>
         <button>Continue in Workshop</button>
       </div>
-    </div >
+    </section >
   )
 }
 

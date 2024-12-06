@@ -5,7 +5,7 @@ import Header from '../header/Header'
 
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <section className={styles.home}>
       <Header />
       <div className={styles.change}>
         <h3>100 years of</h3>
@@ -18,7 +18,7 @@ const Home = () => {
       <div className={styles.lower}>
         <Featured name={'LUXOTEL, Art Gallery Goa'} design={'Designed by Xyz, Firduas Designer'} publish={'Featured in Vogue magazine, Feb 2023'} alignItems={'first baseline'} color={'#fff'} />
       </div>
-    </div>
+    </section>
   )
 }
 

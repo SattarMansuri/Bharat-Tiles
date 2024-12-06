@@ -8,7 +8,7 @@ import Featured from '../featured component/Featured'
 const Years = () => {
 
   return (
-    <div className={styles.years}>
+    <section className={styles.years}>
       <Featured name={'Alenteho by Isprava, Goa. Interior'} design={'FADD Studio Home Villa'} publish={'Featured in Vogue magazine, Feb 2023'} flexDirection={'column-reverse'} />
       <Heading heading={`We blend computer-aided design with craftsmanship and the end result is a tailor-made custom tile which will last for generations.
         Already 100 years and counting...`} />
@@ -16,7 +16,7 @@ const Years = () => {
         <img src={logo} alt="" />
       </div>
       <IntroSpan leftText={'4899 projects'} midText={'+3 million tiles placed'} rightText={'100 years, 7 months, 6days, 12 hours and 13 minutes'} />
-    </div>
+    </section>
   )
 }
 

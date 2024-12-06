@@ -11,7 +11,7 @@ import ManufacturingCard2 from '../manufacturing cards/ManufacturingCard2'
 
 const Manufacturing = () => {
   return (
-    <div className={styles.main}>
+    <section className={styles.main}>
       <div className={styles.upper}>
         <IntroSpan leftText={'6 steps'} midText={'4 hours'} rightText={'Handmade'} />
         <Heading heading={'Manufacturing process'} />
@@ -50,7 +50,7 @@ const Manufacturing = () => {
           </div>
         </div>
       </div>
-    </div >
+    </section >
   )
 }
 
