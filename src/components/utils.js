@@ -161,4 +161,3 @@ export const ALL_LISTS =[
   {id: 25, name: 'DOWNLOAD'},
   {id: 26, name: 'RESOURCES'},
 ]
-

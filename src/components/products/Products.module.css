@@ -29,13 +29,25 @@
   margin-top: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-left: 30px;
   gap: 10px;
 }
+
 
 .arrow {
   font-size: 20px;
   font-weight: 300;
+  transition: .5s all;
+}
+
+.btnArrow {
+  transition: .5s all;
+}
+
+.mid button:hover {
+  .btnArrow {
+    margin-left: 12px;
+  }
 }
 
 .allproducts {
@@ -133,6 +145,7 @@
     height: 30px;
     width: 150px;
     margin-top: 80px;
+    padding-left: 4px;
   }
 
   .allproducts {

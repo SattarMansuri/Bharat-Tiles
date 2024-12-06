@@ -33,7 +33,6 @@
   border: none;
   background-color: transparent;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 3px;
   margin-right: 5px;
@@ -41,11 +40,18 @@
   cursor: pointer;
   height: 30px;
   width: 150px;
+  /* padding-left: 10px; */
+}
+
+.arrow {
+  transition: .5s all;
 }
 
 
 .featured button:hover {
-  border: 1px solid;
+  .arrow {
+    margin-left: 10px;
+  }
 }
 
 @media (width <=1550px) {
@@ -113,6 +119,6 @@
 
   .featured button {
     font-size: 12px;
-
+    width: 100px;
   }
 }

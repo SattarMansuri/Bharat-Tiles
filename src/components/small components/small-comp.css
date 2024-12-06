@@ -1,3 +1,11 @@
+.preloader {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .project {
   padding-top: 50px;
   padding-bottom: 150px;
@@ -101,6 +109,10 @@
     font-size: 12px;
     line-height: 20px;
   }
+
+  .project {
+    padding-bottom: 120px;
+  }
 }
 
 @media (width <=1024px) {
@@ -157,7 +169,7 @@
   }
 
   .project {
-    padding-top: 100px;
+    padding-block: 100px;
   }
 }
 
@@ -167,4 +179,7 @@
     line-height: 33px;
   }
 
+  .project {
+    padding-block: 70px;
+  }
 }

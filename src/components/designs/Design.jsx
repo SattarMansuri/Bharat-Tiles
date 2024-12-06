@@ -32,14 +32,21 @@ const Design = ({ image1, image2, image3 }) => {
     image3Ref.current.style.filter = 'grayscale(100%)'
   }, [])
   return (
-    <section className={styles.designs}>
-      <div className={styles.left}>
-        <img src={image} alt="" />
+    <section>
+      <div className={styles.designs}>
+        <div className={styles.left}>
+          <img src={image} alt="" />
+        </div>
+        <div className={styles.right}>
+          <img ref={image1Ref} onClick={(e) => clickhandle(e)} src={image1} alt="interior image 1" />
+          <img ref={image2Ref} onClick={(e) => clickhandle(e)} src={image2} alt="interior image 2" />
+          <img ref={image3Ref} onClick={(e) => clickhandle(e)} src={image3} alt="interior image 3" />
+        </div>
       </div>
-      <div className={styles.right}>
-        <img ref={image1Ref} onClick={(e) => clickhandle(e)} src={image1} alt="interior image 1" />
-        <img ref={image2Ref} onClick={(e) => clickhandle(e)} src={image2} alt="interior image 2" />
-        <img ref={image3Ref} onClick={(e) => clickhandle(e)} src={image3} alt="interior image 3" />
+      <div className={styles.smallScreen}>
+        <img src={image1} alt="Design Image" />
+        <img src={image2} alt="Design Image" />
+        <img src={image3} alt="Design Image" />
       </div>
     </section>
   )

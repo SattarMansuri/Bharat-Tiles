@@ -5,6 +5,7 @@ import workBench from '../../assets/images/work-bench.png'
 import Heading from '../small components/Heading'
 import ParaBig from '../small components/ParaBig'
 import ParaSmall from '../small components/ParaSmall'
+import { IoArrowForwardSharp } from "react-icons/io5";
 
 const WorkBench = () => {
   return (
@@ -22,7 +23,7 @@ const WorkBench = () => {
         <span>Change tile</span>
         <div className={styles.imagediv}>
           <img src={tile} alt="" />
-          <button>Continue in Workshop</button>
+          <button>Continue in Workshop <IoArrowForwardSharp className={styles.arrow} /></button>
         </div>
       </div>
       <div className={styles.main}>
@@ -59,7 +60,7 @@ const WorkBench = () => {
           <div style={{ backgroundColor: '#B64357' }}></div>
         </div>
         <span>Change tile</span>
-        <button>Continue in Workshop</button>
+        <button>Continue in Workshop <IoArrowForwardSharp className={styles.arrow} /></button>
       </div>
     </section >
   )

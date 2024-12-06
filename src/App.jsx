@@ -14,21 +14,36 @@ import image6 from './assets/images/image6.png'
 import Project from './components/small components/Project'
 import Manufacturing from './components/manufacturing/Manufacturing'
 import Footer from './components/footer/Footer'
+import PreLoading from './components/small components/PreLoading'
+import { useEffect, useState } from 'react'
+
+
 
 function App() {
-
+  const [load, setLoad] = useState(false)
+  useEffect(() => {
+    setLoad(true)
+    setTimeout(() => {
+      setLoad(false)
+    }, 2000)
+  }, [])
   return (
     <>
-      <Home />
-      <Intro />
-      <Design image1={image1} image2={image2} image3={image3} />
-      <Years />
-      <WorkBench />
-      <Products />
-      <Design image1={image4} image2={image5} image3={image6} />
-      <Project />
-      <Manufacturing />
-      <Footer />
+      {
+        load ? <PreLoading /> :
+          <>
+            <Home />
+            <Intro />
+            <Design image1={image1} image2={image2} image3={image3} />
+            <Years />
+            <WorkBench />
+            <Products />
+            <Design image1={image4} image2={image5} image3={image6} />
+            <Project />
+            <Manufacturing />
+            <Footer />
+          </>
+      }
     </>
   )
 }

@@ -23,6 +23,27 @@
   height: 1167px;
 }
 
+.arrow {
+  transition: .5s all;
+}
+
+.workbench button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 168px;
+}
+
+.workbench button:hover {
+  .arrow {
+    margin-left: 10px;
+    ;
+  }
+}
+
 .left {
   width: 50%;
 }
@@ -75,12 +96,6 @@
 .colors div {
   height: 18px;
   width: 70px;
-}
-
-.workbench button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
 }
 
 .workbench span {

@@ -130,4 +130,10 @@
     margin-bottom: 15px;
     font-size: 35px;
   }
+
+  .card:hover {
+    .arrow {
+      margin-left: 15px;
+    }
+  }
 }
