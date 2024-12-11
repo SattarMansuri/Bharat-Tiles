@@ -18,37 +18,49 @@
   margin-bottom: 120px;
 }
 
+.logo img {
+  width: 7%;
+}
+
 @media (width <=1536px) {
   .years {
-    padding-block: 30px;
+    padding-block: 50px;
   }
 
   .years h2 {
-    margin-top: 90px;
+    margin-top: 130px;
   }
 
   .logo {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 90px;
   }
 }
 
 @media (width <=1280px) {
+  .years {
+    padding-block: 42px;
+  }
+
   .years h2 {
-    margin-top: 70px;
+    margin-top: 110px;
     width: 100%;
     margin-left: 0;
   }
 
   .logo {
-    margin-top: 40px;
-    margin-bottom: 70px;
+    margin-top: 55px;
+    margin-bottom: 75px;
   }
 }
 
 @media (width <=1024px) {
+  .years {
+    padding-block: 35px
+  }
+
   .years h2 {
-    margin-top: 60px;
+    margin-top: 90px;
   }
 
   .logo {
@@ -63,10 +75,20 @@
   }
 
   .logo {
-    margin-bottom: 30px;
+    margin-block: 90px;
+  }
+
+  .logo img {
+    width: 30%;
   }
 
   .years {
     padding-top: 100px;
+  }
+}
+
+@media (width <=680px) {
+  .logo {
+    margin-block: 70px;
   }
 }

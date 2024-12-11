@@ -10,10 +10,10 @@ import darkLogo from '../../assets/images/logo-dark.svg'
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.logo}>
-        <img src={logo} alt='Bharat flooring and tiles logo' />
-      </div>
       <div className={styles.colors}>
+        <div className={styles.logo}>
+          <img src={logo} alt='Bharat flooring and tiles logo' />
+        </div>
         {
           COLORS.map(({ id, name, color, bgCol }) => (
             <Colors key={id} name={name} color={color} bgCol={bgCol} />

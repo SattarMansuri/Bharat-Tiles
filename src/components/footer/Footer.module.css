@@ -1,24 +1,25 @@
 .footer {
   padding-bottom: 50px;
   background-color: #ffffff;
-  position: relative;
+  padding-top: 1px;
 }
 
 .colors {
   display: flex;
+  position: relative;
 }
 
 .logo {
   background-color: #2A2523;
-  width: 7%;
+  width: 5%;
   height: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   position: absolute;
-  top: 20%;
-  left: 7.2%;
+  bottom: 0%;
+  left: 5.25%;
   overflow: hidden;
 }
 
@@ -50,18 +51,42 @@ ul {
   display: none;
 }
 
-@media (width <=1280px) {
+@media (width <=1536px) {
+  .navigations {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+
   .logo {
     height: 100px;
-    top: 18.2%;
-    left: 6.8%;
+  }
+}
+
+@media (width <=1280px) {
+  .logo {
+    height: 80px;
+  }
+
+  .navigations {
+    margin-block: 50px;
+  }
+
+  .footer {
+    padding-bottom: 30px;
   }
 }
 
 @media (width <=1024px) {
   .logo {
-    max-height: 80px;
-    top: 15%;
+    height: 65px;
+  }
+
+  .navigations {
+    margin-block: 30px;
+  }
+
+  .footer {
+    padding-bottom: 20px;
   }
 }
 

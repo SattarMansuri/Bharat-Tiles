@@ -30,7 +30,8 @@
   display: flex;
   align-items: center;
   padding-left: 30px;
-  gap: 10px;
+  gap: 5px;
+  font-weight: 500;
 }
 
 
@@ -76,7 +77,7 @@
   margin-bottom: 25px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
   margin-top: 90%;
   color: #fff;
 }
@@ -102,12 +103,20 @@
 
 @media (width <=1536px) {
 
-  .mid {
-    margin-block: 50px;
+  .products {
+    padding-block: 40px;
   }
 
-  .mid h1 {
-    font-size: 80px;
+  .mid {
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+
+  .mid button {
+    height: 45px;
+    width: 160px;
+    gap: 5px;
+    padding-left: 15px;
   }
 
   .allproducts {
@@ -126,56 +135,57 @@
 }
 
 @media (width <=1280px) {
-  .mid P {
-    width: 30%;
-    margin-top: 80px;
-    margin-left: 150px;
-    font-size: 13px;
+  .products {
+    padding-block: 35px;
   }
 
   .mid {
-    margin-block: 40px;
-  }
-
-  .mid button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    border: 1px solid #000000;
-    height: 30px;
-    width: 150px;
-    margin-top: 80px;
-    padding-left: 4px;
-  }
-
-  .allproducts {
-    margin-bottom: 90px;
+    margin-top: 85px;
+    margin-bottom: 20px;
   }
 
   .menu h1 {
     font-size: 30px;
   }
+
+  .mid p {
+    margin-top: 80px;
+  }
+
+  .mid button {
+    height: 38px;
+    width: 130px;
+    font-size: 11px;
+    padding-left: 5px;
+  }
 }
 
 @media (width <=1024px) {
+  .products {
+    padding-block: 20px;
+  }
+
   .mid P {
-    width: 40%;
     margin-top: 50px;
     margin-left: 100px;
-    font-size: 13px;
   }
 
   .mid {
-    margin-block: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
   }
 
   .mid button {
     margin-top: 50px;
-    font-size: 13px;
+    font-size: 9px;
+    gap: 3px;
+    width: 105px;
+    height: 30px;
+    padding-left: 5px;
   }
 
   .allproducts {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 
   .menu {
@@ -186,7 +196,7 @@
 
 @media (width <=768px) {
   .products {
-    padding-block: 0px;
+    padding-block: 10px;
   }
 
   .mid button {
@@ -205,8 +215,6 @@
   .mid p {
     width: 100%;
     margin-left: 0;
-    font-size: 16px;
-    line-height: 20px;
     margin-top: 30px;
   }
 
@@ -223,5 +231,10 @@
 
   .menu h1 {
     padding-top: 100px;
+    margin-left: 10%;
+  }
+
+  .menu img {
+    margin-left: 10%;
   }
 }

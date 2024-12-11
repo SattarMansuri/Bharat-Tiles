@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   z-index: 10;
-  height: 125px;
   position: relative;
 }
 
@@ -12,12 +11,11 @@
 
 .logo div {
   background-color: #2A2523;
-  width: 102px;
-  height: 100%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 10px 10px 10px;
+  padding: 30px 10px 15px 10px;
 }
 
 .logo img {
@@ -62,7 +60,7 @@
   gap: 30px;
   right: 0;
   width: 250px;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 100px;
   padding-inline: 20px;
   background-color: #ffffff16;
@@ -74,15 +72,30 @@
   color: #ffffff;
 }
 
-@media (width <=1030px) {
-  .logo div {
-    width: 80px;
-    height: 90px;
-    padding: 20px 10px 10px 10px;
+@media (width <=1536px) {
+
+  .navigations {
+    font-size: 13px;
   }
 }
 
-@media (width <=768px) {
+@media (width <=1280px) {
+  .navigations {
+    font-size: 11px;
+  }
+}
+
+@media (width <=1024px) {
+  .logo div {
+    padding: 15px 8px 10px 8px;
+  }
+
+  .navigations {
+    font-size: 9px;
+  }
+}
+
+@media (width <=900px) {
   .logo div {
     width: 60px;
     height: 75px;

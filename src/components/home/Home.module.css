@@ -1,14 +1,15 @@
 .home {
   width: 100%;
   background-image: url('../../assets/images/home-img.png');
+  background-size: cover;
   color: #ffffff;
   position: relative;
   padding-inline: 5%;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 
 .change {
-  margin-top: 300px;
+  margin-top: 350px;
 }
 
 .change h3 {
@@ -29,7 +30,7 @@
 
 .change span {
   font-family: "Gloock", sans-serif;
-  animation: 10s scroll;
+  animation: 5s scroll;
   animation-iteration-count: infinite;
   animation-play-state: running;
   color: #ffffff;
@@ -53,8 +54,20 @@
     transform: translateY(0%);
   }
 
+  10% {
+    transform: translateY(0%);
+  }
+
   50% {
     transform: translateY(-100%);
+  }
+
+  60% {
+    transform: translateY(-100%);
+  }
+
+  90% {
+    transform: translateY(-200%);
   }
 
   100% {
@@ -63,8 +76,12 @@
 }
 
 @media (width <=1536px) {
+  .home {
+    padding-bottom: 40px;
+  }
+
   .change {
-    margin-top: 150px;
+    margin-top: 220px;
   }
 
   .change h1 {
@@ -77,11 +94,19 @@
   }
 
   .lower {
-    margin-top: 120px;
+    margin-top: 190px;
   }
 }
 
 @media (width <=1280px) {
+  .home {
+    padding-bottom: 30px;
+  }
+
+  .change {
+    margin-top: 175px;
+  }
+
   .change h3 {
     font-size: 58px;
   }
@@ -92,14 +117,14 @@
   }
 
   .lower {
-    margin-top: 100px;
+    margin-top: 155px;
   }
 }
 
 @media (width <=1024px) {
 
   .change {
-    margin-top: 100px;
+    margin-top: 150px;
   }
 
   .change h3 {
@@ -137,8 +162,11 @@
 
 @media (width <=650px) {
   .home {
-    min-height: 100vh;
-    padding-bottom: 0;
+    padding-bottom: 100px;
+  }
+
+  .change {
+    margin-top: 250px;
   }
 
   .change h3 {
@@ -153,7 +181,7 @@
   }
 }
 
-@media (width <=475px) {
+@media (width <=495px) {
   .change h2 {
     font-size: 28px;
   }

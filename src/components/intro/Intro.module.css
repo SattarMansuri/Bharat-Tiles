@@ -26,21 +26,22 @@
 .paraBig {
   margin-top: 20px;
   margin-bottom: 120px;
+  width: 90%;
 }
 
-.paraSmall {
+.paraSmall p {
   font-size: 20px;
-  color: #2A2523;
+  line-height: 32px;
+  width: 92%;
 }
 
 .right img {
   width: 100%;
-  min-height: 687px;
+  height: 100%;
 }
 
 .right p {
   display: none;
-  font-size: 13px;
   text-align: center;
   margin-top: 10px;
 }
@@ -51,54 +52,50 @@
   }
 
   .main {
-    margin-bottom: 50px;
-    margin-top: 70px;
+    margin-bottom: 75px;
+    margin-top: 100px;
   }
 
   .paraBig {
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 68px;
   }
 
-  .paraSmall {
-    font-size: 15px;
-  }
-
-  .right img {
-    height: 540px;
+  .paraSmall p {
+    font-size: 18px;
+    line-height: 25px;
   }
 
 }
 
 @media (width <=1280px) {
-
-  .main {
-    margin-top: 50px;
-    margin-bottom: 40px;
+  .intro {
+    padding-block: 40px;
   }
 
-  .main h2 {
-    width: 90%;
+  .main {
+    margin-bottom: 65px;
+    margin-top: 85px;
   }
 
   .paraBig {
-    font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
   }
 
-  .paraSmall {
-    font-size: 12px;
-  }
-
-  .right img {
-    height: 530px;
+  .paraSmall p {
+    font-size: 15px;
+    line-height: 23px;
   }
 }
 
 @media (width <=1024px) {
+  .intro {
+    padding-block: 32px;
+  }
+
   .main {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 57px;
+    margin-bottom: 25px;
   }
 
   .main h2 {
@@ -109,19 +106,21 @@
     margin-bottom: 40px;
   }
 
-  .paraSmall {
-    font-size: 12px;
-  }
-
-  .right img {
-    height: 450px;
+  .paraSmall p {
+    font-size: 11.5px;
+    line-height: 20px;
   }
 }
 
 @media (width <=768px) {
+  .paraBig {
+    margin-bottom: 25px;
+  }
 
-  .intro {
-    padding-block: 50px;
+  .paraSmall p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 25px;
   }
 
   .main {
@@ -136,15 +135,6 @@
     width: 100%;
   }
 
-  .paraBig {
-    margin-bottom: 20px;
-  }
-
-  .paraSmall {
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-
   .right img {
     height: auto;
   }
@@ -156,16 +146,18 @@
 
 @media (width <=640px) {
   .intro {
-    padding-block: 35px;
+    padding-block: 20px;
   }
 
-  .right img {
-    max-height: 300px;
+  .paraSmall p {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
-@media (width <=475px) {
-  .intro {
-    padding-block: 20px;
+@media (width <=495px) {
+  .paraSmall p {
+    font-size: 15px;
+    line-height: 23px;
   }
 }

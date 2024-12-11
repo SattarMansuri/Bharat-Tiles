@@ -45,7 +45,7 @@ const Manufacturing = () => {
           <img src={sofa} alt="" />
           <div className={styles.btn}>
             <h2>
-              BFT HOME  <img src={arrow} className={styles.arrow} />
+              BFT Home  <img src={arrow} className={styles.arrow} />
             </h2>
           </div>
         </div>

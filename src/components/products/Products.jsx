@@ -13,7 +13,7 @@ const Products = () => {
   return (
     <section className={styles.products}>
       <div className={styles.upper}>
-        <IntroSpan leftText={'69 products'} midText={'30colors'} rightText={'100 years'} />
+        <IntroSpan leftText={'69 products'} midText={'30 colors'} rightText={'100 years'} />
         <div className={styles.mid}>
           <Heading heading={'Products'} />
           <ParaSmall para={'From exquisite handcrafted cement tiles that bring timeless beauty to your space, to elegant terrazzo floors that exude grandeur, our collection of decorative concrete, outdoor floors, micro cement overlays, wallpapers, bespoke products, and more, offers limitless design possibilities. Let your imagination soar as you discover the perfect flooring solution that transforms ordinary spaces into extraordinary works of art.'} />

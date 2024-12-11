@@ -87,7 +87,6 @@
 
 .lower {
   position: relative;
-  min-height: 1083px;
   overflow: hidden;
   margin-bottom: -10px;
 }
@@ -144,6 +143,10 @@
 @media (width <=1280px) {
   .main {
     padding-top: 40px;
+  }
+
+  .upper h2 {
+    margin-top: 105px;
   }
 
   .info {
