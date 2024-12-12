@@ -1,13 +1,25 @@
 .main {
-  padding-top: 50px;
   background-color: #2A2523;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: sticky;
+  top: -1%;
+  height: 1083px;
+  padding-top: 50px;
 }
 
-.main span {
+.upper span {
   color: #ffffff;
 }
 
-.main h2 {
+.upper {
+  padding-inline: 5%;
+  position: sticky;
+  top: 0%;
+}
+
+.upper h2 {
   color: #8FDEAA;
   margin-block: 50px;
   width: 46%;
@@ -17,7 +29,6 @@
   display: flex;
   font-size: 16px;
   gap: 200px;
-  margin-bottom: 150px;
 }
 
 .info p {
@@ -27,122 +38,90 @@
   font-weight: 400;
 }
 
-.upper {
-  padding-inline: 5%;
+
+.card1 {
+  margin-top: 100px;
+  position: sticky;
+  top: 47%;
+  margin-left: -4%;
+  min-width: 90%;
+}
+
+.card2 {
+  position: sticky;
+  top: 47%;
+  margin-left: 4.1%;
+  min-width: 90%;
+}
+
+.card3 {
+  position: sticky;
+  top: 47%;
+  margin-left: 11.8%;
+  min-width: 90%;
+}
+
+.card4 {
+  position: sticky;
+  top: 47%;
+  margin-left: 18.65%;
+  min-width: 90%;
+}
+
+.card5 {
+  position: sticky;
+  top: 47%;
+  margin-left: 25.1%;
+  min-width: 90%;
+}
+
+.card6 {
+  position: sticky;
+  top: 47%;
+  margin-left: 31.6%;
+  min-width: 90%;
 }
 
 .mid {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  scrollbar-width: none;
-  max-height: 500px;
-}
-
-.mid :nth-child(1) {
-  position: sticky;
-  top: -2%;
-  left: .5%;
-}
-
-.mid :nth-child(2) {
-  position: sticky;
-  top: -2%;
-  left: 7%;
-}
-
-.mid :nth-child(3) {
-  position: sticky;
-  top: -2%;
-  left: 13%;
-}
-
-.mid :nth-child(4) {
-  position: sticky;
-  top: -2%;
-  left: 21%;
-  width: 79%;
-}
-
-.mid :nth-child(5) {
-  position: sticky;
-  top: -2%;
-  left: 29%;
-  width: 71%;
-}
-
-.mid :nth-child(6) {
-  position: sticky;
-  top: -2%;
-  left: 36%;
-  width: 64%;
-}
-
-.mid2 {
   display: none;
-}
-
-.lower {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: -10px;
-}
-
-.lower img {
-  width: 100%;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 70%;
-  left: 5%;
-  width: 90%;
-}
-
-.btn h2 {
-  font-size: 100px;
-  line-height: 100px;
-  font-family: "Gloock", sans-serif;
-  font-weight: 400;
-  color: #F6F5EC;
-  width: 90%;
-}
-
-.arrow {
-  max-width: 10%;
-  margin-bottom: 20px;
 }
 
 @media (width <=1536px) {
   .main {
     padding-top: 40px;
+    min-height: 800px;
   }
 
-  .info {
-    margin-bottom: 100px;
+  .card1 {
+    top: 45%;
   }
 
-  .lower {
-    min-height: auto;
+  .card2 {
+    top: 45%;
   }
 
-  .lower h2 {
-    font-size: 80px;
+  .card3 {
+    top: 45%;
   }
 
-  .mid {
-    height: 440px;
+  .card4 {
+    top: 45%;
   }
+
+  .card5 {
+    top: 45%;
+  }
+
+  .card6 {
+    top: 45%;
+  }
+
 }
 
 @media (width <=1280px) {
   .main {
     padding-top: 40px;
+    min-height: 687px;
   }
 
   .upper h2 {
@@ -153,28 +132,32 @@
     margin-bottom: 100px;
   }
 
-  .lower img {
-    max-height: 730px;
-  }
-
-  .lower h2 {
-    font-size: 68px;
-  }
-
   .info p {
     width: 100%;
   }
 
-  .mid {
-    height: 390px;
+  .card1 {
+    top: 48%;
   }
 
-  .btn {
-    top: 60%;
+  .card2 {
+    top: 48%;
   }
 
-  .arrow {
-    margin-bottom: 10px;
+  .card3 {
+    top: 48%;
+  }
+
+  .card4 {
+    top: 48%;
+  }
+
+  .card5 {
+    top: 48%;
+  }
+
+  .card6 {
+    top: 48%;
   }
 }
 
@@ -182,6 +165,7 @@
 @media (width <=1024px) {
   .main {
     padding-top: 40px;
+    min-height: 650px;
   }
 
   .info {
@@ -196,51 +180,48 @@
     width: 100%;
     font-size: 16px;
   }
-
-  .lower h2 {
-    font-size: 54px;
-  }
 }
 
-@media (width <=768px) {
-  .info {
-    flex-direction: column;
-    gap: 20px;
+@media (width <=900px) {
+  .main {
+    height: auto;
   }
 
-  .lower img {
-    max-height: 650px;
-  }
-
-  .lower {
-    margin-top: 50px;
-  }
-
-  .lower h2 {
-    font-size: 46px;
-  }
-
-  .mid {
+  .card1 {
     display: none;
   }
 
-  .mid2 {
+  .card2 {
+    display: none;
+  }
+
+  .card3 {
+    display: none;
+  }
+
+  .card4 {
+    display: none;
+  }
+
+  .card5 {
+    display: none;
+  }
+
+  .card6 {
+    display: none;
+  }
+
+  .mid {
     display: flex;
     overflow-x: scroll;
     scrollbar-width: none;
   }
 }
 
-@media (width <=640px) {
-  .lower img {
-    max-height: 650px;
-  }
+@media (width <=768px) {
 
-  .lower h3 {
-    font-size: 28px;
-  }
-
-  .btn {
-    top: 30%;
+  .info {
+    flex-direction: column;
+    gap: 20px;
   }
 }

@@ -2,12 +2,11 @@ import React from 'react'
 import styles from './Manufacturing.module.css'
 import IntroSpan from '../small components/IntroSpan'
 import { MANUFACTURING } from '../utils'
-import sofa from '../../assets/images/footer-img.png'
-import arrow from '../../assets/images/arrow.svg'
 import Heading from '../small components/Heading'
 import ParaSmall from '../small components/ParaSmall'
 import ManufacturingCard1 from '../manufacturing cards/ManufacturingCard1'
 import ManufacturingCard2 from '../manufacturing cards/ManufacturingCard2'
+import FooterImage from '../small components/FooterImage'
 
 const Manufacturing = () => {
   return (
@@ -26,30 +25,58 @@ const Manufacturing = () => {
           </div>
         </div>
       </div>
-      <div className={styles.scrolls}>
-        <div className={styles.mid}>
-          {
-            MANUFACTURING.map(({ id, name, para, image }) => (
-              <ManufacturingCard1 className={`${styles}.card${id}`} key={id} sr={id} name={name} para={para} image={image} />
-            ))
-          }
-        </div>
-        <div className={styles.mid2}>
-          {
-            MANUFACTURING.map(({ id, name, para, image }) => (
-              <ManufacturingCard2 className={`${styles}.card${id}`} key={id} sr={id} name={name} para={para} image={image} />
-            ))
-          }
-        </div>
-        <div className={styles.lower}>
-          <img src={sofa} alt="" />
-          <div className={styles.btn}>
-            <h2>
-              BFT Home  <img src={arrow} className={styles.arrow} />
-            </h2>
-          </div>
-        </div>
+
+      <div className={styles.card1}>
+        {
+          MANUFACTURING.filter((el) => el.name === 'Blending').map(({ id, name, para, image, margin }) => (
+            <ManufacturingCard1 key={id} sr={id} name={name} para={para} image={image} margin={margin} />
+          ))
+        }
       </div>
+      <div className={styles.card2}>
+        {
+          MANUFACTURING.filter((el) => el.name === 'Molding').map(({ id, name, para, image, margin }) => (
+            <ManufacturingCard1 key={id} sr={id} name={name} para={para} image={image} margin={margin} />
+          ))
+        }
+      </div>
+      <div className={styles.card3}>
+        {
+          MANUFACTURING.filter((el) => el.name === 'Compressing').map(({ id, name, para, image, margin }) => (
+            <ManufacturingCard1 key={id} sr={id} name={name} para={para} image={image} margin={margin} />
+          ))
+        }
+      </div>
+      <div className={styles.card4}>
+        {
+          MANUFACTURING.filter((el) => el.name === 'Hardening').map(({ id, name, para, image, margin }) => (
+            <ManufacturingCard1 key={id} sr={id} name={name} para={para} image={image} margin={margin} />
+          ))
+        }
+      </div>
+      <div className={styles.card5}>
+        {
+          MANUFACTURING.filter((el) => el.name === 'Hydrolysis').map(({ id, name, para, image, margin }) => (
+            <ManufacturingCard1 key={id} sr={id} name={name} para={para} image={image} margin={margin} />
+          ))
+        }
+      </div>
+      <div className={styles.card6}>
+        {
+          MANUFACTURING.filter((el) => el.name === 'Drying').map(({ id, name, para, image, margin }) => (
+            <ManufacturingCard1 key={id} sr={id} name={name} para={para} image={image} margin={margin} />
+          ))
+        }
+      </div>
+
+      < div className={styles.mid} >
+        {
+          MANUFACTURING.map(({ id, name, para, image, }) => (
+            <ManufacturingCard2 className={`${styles}.card${id}`} key={id} sr={id} name={name} para={para} image={image} />
+          ))
+        }
+      </div >
+      <FooterImage />
     </section >
   )
 }

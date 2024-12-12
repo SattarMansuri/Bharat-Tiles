@@ -1,25 +1,22 @@
 .main {
   width: 80%;
-  background-color: #2a2523be;
+  background-color: #2a2523c3;
 }
 
 .card {
   display: flex;
   justify-content: space-between;
-  min-width: 90%;
-  height: 510px;
   background-color: #2A2523;
-  margin-left: 10%;
+  min-width: 90%;
 }
 
 .left {
   width: 50%;
-  height: 100%;
 }
 
 .right {
   width: 45%;
-  height: 100%
+  min-height: 500px;
 }
 
 .right img {
@@ -31,71 +28,87 @@
 
 .outerline {
   background-color: #8FDEAA;
-  height: 2px;
+  height: 1.5px;
 }
 
 .innerline {
   background-color: #8FDEAA;
-  height: 4px;
+  height: 2px;
   width: 20%;
 }
 
-.cardinfo p {
-  width: 73%;
-  color: #fff;
+.heading {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2%;
 }
 
-.cardinfo {
+.info p {
+  width: 68%;
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.info {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
 }
 
 
-.cardinfo h3 {
+.heading h3 {
   font-size: 30px;
   width: 20%;
   color: #8FDEAA;
+  font-weight: 400;
 }
 
-.cardinfo span {
+.info span {
   color: #8FDEAA;
+  font-weight: 300;
+  font-size: 13px;
 }
 
 @media (width <=1536px) {
-  .card {
-    max-height: 450px;
+  .info p {
+    font-size: 16px;
+    line-height: 24px;
   }
 
-  .cardinfo h3 {
-    font-size: 26px;
-  }
-
-  .cardinfo span {
-    font-size: 13px;
+  .heading h3 {
+    font-size: 25px;
   }
 }
 
 @media (width <=1280px) {
-  .card {
-    height: 400px;
+  .info p {
+    font-size: 13px;
+    line-height: 21px;
   }
 
-  .cardinfo h3 {
-    font-size: 23px;
+  .heading h3 {
+    font-size: 22px;
   }
 
-  .cardinfo span {
+  .info span {
     font-size: 12px;
   }
 }
 
 @media (width <=1024px) {
-  .cardinfo h3 {
-    font-size: 16px;
+  .info p {
+    font-size: 11px;
+    line-height: 19px;
   }
 
-  .cardinfo span {
+  .heading h3 {
+    font-size: 20px;
+  }
+
+  .info span {
     font-size: 9px;
   }
 }

@@ -34,6 +34,7 @@
   padding-block: 40px;
   animation: 0.5s colors;
   display: none;
+
 }
 
 .info h2 {
@@ -74,8 +75,9 @@
 .arrow {
   font-size: 20px;
   margin-top: 10px;
+  font-weight: 500;
   cursor: pointer;
-  transition: 1s all;
+  transition: 1.5s all;
 }
 
 .designs {
@@ -104,6 +106,10 @@
   margin-top: 100px;
 }
 
+.info p {
+  font-weight: 500;
+}
+
 .images img {
   width: 30%;
 }
@@ -119,7 +125,12 @@
   }
 
   .info p {
-    margin-top: 20px;
+    margin-top: 50px;
+    line-height: 17px;
+  }
+
+  .card span {
+    font-size: 14px;
   }
 
   .images {
@@ -135,6 +146,14 @@
 
   .card h1 {
     font-size: 30px;
+  }
+
+  .info p {
+    line-height: 13px;
+  }
+
+  .card span {
+    font-size: 12px;
   }
 }
 
@@ -152,6 +171,10 @@
     margin-top: 20px;
     font-size: 11px;
     line-height: 19px;
+  }
+
+  .card span {
+    font-size: 14px;
   }
 }
 

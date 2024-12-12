@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './ProductsCard.module.css'
-import { FaArrowRight } from "react-icons/fa6";
+import { RiArrowRightLine } from "react-icons/ri";
 import product1 from '../../assets/images/product-img1.png'
 import product2 from '../../assets/images/product-img2.png'
 import product3 from '../../assets/images/product-img3.png'
@@ -26,7 +26,7 @@ const ProductsCard = ({ image, head }) => {
         <ParaSmall para={'From exquisite handcrafted cement tiles that bring timeless beauty to your space, to elegant terrazzo floors that exude grandeur, our collection of decorative concrete, outdoor floors, micro cement overlays, wallpapers, bespoke products, and more, offers limitless design possibilities. Let your imagination soar as you discover the perfect flooring solution that transforms ordinary spaces into extraordinary works of art.'} />
       </div>
       <h1>{head}
-        <FaArrowRight className={styles.arrow} />
+        <RiArrowRightLine className={styles.arrow} />
       </h1>
       <div className={styles.designs}>
         <span>18 designs</span>

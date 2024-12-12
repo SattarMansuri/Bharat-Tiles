@@ -162,7 +162,7 @@
 
 @media (width <=650px) {
   .home {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   .change {
@@ -178,6 +178,10 @@
     font-size: 42px;
     height: 42px;
     text-align: center;
+  }
+
+  .lower {
+    margin-top: 250px;
   }
 }
 

@@ -3,7 +3,7 @@ import styles from './Featured.module.css'
 import gallery1 from '../../assets/images/gallery1.svg'
 import gallery2 from '../../assets/images/gallery2.svg'
 import gallery3 from '../../assets/images/gallery3.svg'
-import { FaArrowRight } from "react-icons/fa6";
+import { RiArrowRightLine } from "react-icons/ri";
 
 const Featured = ({ name, design, flexDirection, alignItems, publish }) => {
   return (
@@ -26,7 +26,7 @@ const Featured = ({ name, design, flexDirection, alignItems, publish }) => {
       </div>
       <div style={{ alignItems: alignItems }} className={styles.featuredText}>
         <div className={styles.bottom}>
-          <button>View Project <FaArrowRight className={styles.arrow} /></button>
+          <button>View Project <RiArrowRightLine className={styles.arrow} /></button>
         </div>
       </div>
     </div>

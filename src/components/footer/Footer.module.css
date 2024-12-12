@@ -1,7 +1,13 @@
+.led {
+  position: relative;
+}
+
 .footer {
   padding-bottom: 50px;
   background-color: #ffffff;
   padding-top: 1px;
+  position: absolute;
+  min-width: 100%;
 }
 
 .colors {

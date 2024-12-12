@@ -38,15 +38,3 @@ body {
 .grey-image {
   filter: grayscale(100%);
 }
-
-.lines {
-  display: flex;
-  justify-content: space-between;
-  padding-inline: 5%;
-}
-
-.line {
-  width: 2px;
-  min-height: 100vh;
-  background-color: rgb(69, 65, 65);
-}

@@ -24,36 +24,43 @@ export const MANUFACTURING = [
     name: 'Blending',
     para: 'The pigment composition is a mixture of a high quality white portland cement, marble powder and natural mineral colour pigments. The ingredients are blended together carefully over a period of 3-4 hours to produce the final colours.',
     image: blending,
+    margin: '10%'
   },
   {
     id: 2,
     name: 'Molding',
     para: 'The colours are filled with hand into a metal mold. The metal mold, containing the desired pattern is handmade from specific drawings. Handmade cement tiles are unique and are expected to have slight imperfections, which guve them character and depth.',
     image: molding,
+    margin: '10%'
   },
   {
     id: 3,
     name: 'Compressing',
     para: 'A cork in the form of a strong metal plate is applied at the top of the mold and the tiles is pressed using a mechanical hydraulic press. The pressure applied is up to 1-ton per square inch, which produces a compact tile',
     image: compressing,
+    margin: '9.5%'
+
   },
   {
     id: 4,
     name: 'Hardening',
     para: 'After pressing, the tiles are removed from the mold and placed on a rack until they harden enough to be moved into a tank of water.',
     image: hardening,
+    margin: '9%'
   },
   {
     id: 5,
     name: 'Hydrolysis',
     para: 'The tiles are cured in water for several days, and not touched, during which they undergo a hydrolysis process and harden  into string concrete.',
     image: hydrolysis,
+    margin: '9%'
   },
   {
     id: 6,
     name: 'Drying',
     para: 'The are then removed from the tank, and allowed to further cure in tehair, until they are fully ready to be shipped to the customer.',
     image: drying,
+     margin: '9%'
   }
 ]
 

@@ -43,6 +43,7 @@
 
 .arrow {
   transition: .5s all;
+  font-size: 16px;
 }
 
 
@@ -74,8 +75,12 @@
   }
 
   .featured button {
-    font-size: 11px;
+    font-size: 12px;
     width: 95px;
+  }
+
+  .arrow {
+    font-size: 14px;
   }
 }
 
@@ -124,6 +129,10 @@
   .bottom {
     padding: 0;
   }
+
+  .arrow {
+    font-size: 12px;
+  }
 }
 
 @media (width <=495px) {
@@ -138,5 +147,9 @@
   .featured button {
     font-size: 12px;
     width: 100px;
+  }
+
+  .arrow {
+    font-size: 10px;
   }
 }
