@@ -21,6 +21,7 @@
 
 .right {
   width: 50%;
+  overflow: hidden;
 }
 
 .paraBig {
@@ -35,8 +36,8 @@
   width: 92%;
 }
 
-.video {
-  width: 100%;
+.manufacturingVideo {
+  max-width: 100%;
   min-height: 95%;
 }
 
@@ -135,7 +136,7 @@
     width: 100%;
   }
 
-  .video {
+  .manufacturingVideo {
     height: auto;
   }
 
