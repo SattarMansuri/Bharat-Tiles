@@ -36,13 +36,7 @@
 
 @media (width <=1536px) {
   .designs {
-    height: 730px;
-  }
-}
-
-@media (width <=1280px) {
-  .designs {
-    height: 680px;
+    height: 100vh;
   }
 }
 

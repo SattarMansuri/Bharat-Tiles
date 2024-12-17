@@ -4,8 +4,8 @@
   overflow-y: scroll;
   overflow-x: hidden;
   position: sticky;
-  top: -1%;
-  height: 1083px;
+  top: 0%;
+  height: 100vh;
   padding-top: 50px;
 }
 
@@ -42,42 +42,42 @@
 .card1 {
   margin-top: 100px;
   position: sticky;
-  top: 47%;
+  top: 50%;
   margin-left: -4%;
   min-width: 90%;
 }
 
 .card2 {
   position: sticky;
-  top: 47%;
+  top: 50%;
   margin-left: 4.1%;
   min-width: 90%;
 }
 
 .card3 {
   position: sticky;
-  top: 47%;
+  top: 50%;
   margin-left: 11.8%;
   min-width: 90%;
 }
 
 .card4 {
   position: sticky;
-  top: 47%;
+  top: 50%;
   margin-left: 18.65%;
   min-width: 90%;
 }
 
 .card5 {
   position: sticky;
-  top: 47%;
+  top: 50%;
   margin-left: 25.1%;
   min-width: 90%;
 }
 
 .card6 {
   position: sticky;
-  top: 47%;
+  top: 50%;
   margin-left: 31.6%;
   min-width: 90%;
 }
@@ -93,27 +93,27 @@
   }
 
   .card1 {
-    top: 45%;
+    top: 60%;
   }
 
   .card2 {
-    top: 45%;
+    top: 60%;
   }
 
   .card3 {
-    top: 45%;
+    top: 60%;
   }
 
   .card4 {
-    top: 45%;
+    top: 60%;
   }
 
   .card5 {
-    top: 45%;
+    top: 60%;
   }
 
   .card6 {
-    top: 45%;
+    top: 60%;
   }
 
 }
@@ -125,7 +125,8 @@
   }
 
   .upper h2 {
-    margin-top: 105px;
+    margin-top: 90px;
+    margin-bottom: 40px;
   }
 
   .info {
@@ -134,30 +135,31 @@
 
   .info p {
     width: 100%;
+    line-height: 20px;
   }
 
   .card1 {
-    top: 48%;
+    top: 65%;
   }
 
   .card2 {
-    top: 48%;
+    top: 65%;
   }
 
   .card3 {
-    top: 48%;
+    top: 65%;
   }
 
   .card4 {
-    top: 48%;
+    top: 65%;
   }
 
   .card5 {
-    top: 48%;
+    top: 65%;
   }
 
   .card6 {
-    top: 48%;
+    top: 65%;
   }
 }
 
@@ -178,7 +180,7 @@
 
   .info p {
     width: 100%;
-    font-size: 16px;
+    font-size: 11px;
   }
 }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Years.module.css'
 import logo from '../../assets/images/100-years.svg'
 import IntroSpan from '../small components/IntroSpan'
@@ -6,7 +6,6 @@ import Heading from '../small components/Heading'
 import Featured from '../featured component/Featured'
 
 const Years = () => {
-
   return (
     <section className={styles.years}>
       <Featured name={'Alenteho by Isprava, Goa. Interior'} design={'FADD Studio Home Villa'} publish={'Featured in Vogue magazine, Feb 2023'} flexDirection={'column-reverse'} />
@@ -15,7 +14,7 @@ const Years = () => {
       <div className={styles.logo}>
         <img src={logo} alt="" />
       </div>
-      <IntroSpan leftText={'4899 projects'} midText={'+3 million tiles placed'} rightText={'100 years, 7 months, 6days, 12 hours and 13 minutes'} />
+      <IntroSpan leftText={'4899 projects'} midText={'+3 million tiles placed'} rightText={`100 years, 7 months, 6 days, 12 hours and 13 minutes`} />
     </section>
   )
 }

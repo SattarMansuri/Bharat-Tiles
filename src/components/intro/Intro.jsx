@@ -5,6 +5,7 @@ import IntroSpan from '../small components/IntroSpan'
 import Heading from '../small components/Heading'
 import ParaBig from '../small components/ParaBig'
 import ParaSmall from '../small components/ParaSmall'
+import manufacturing from '../../assets/videos/Manufacturing.mp4'
 
 const Intro = () => {
   return (
@@ -21,7 +22,7 @@ const Intro = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <img src={tiles} alt="" />
+          <video className={styles.manufacturingVideo} controls src={manufacturing} type="video/mp4" />
           <ParaSmall para={'A century year old technique which is still relevant'} />
         </div>
       </div>

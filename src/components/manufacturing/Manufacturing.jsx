@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from './Manufacturing.module.css'
 import IntroSpan from '../small components/IntroSpan'
 import { MANUFACTURING } from '../utils'

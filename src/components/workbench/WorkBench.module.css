@@ -24,8 +24,7 @@
 
 .arrow {
   transition: .5s all;
-  margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .workbench button {
@@ -292,7 +291,6 @@
   }
 
   .arrow {
-    margin-bottom: 0;
     font-size: 16px;
   }
 }

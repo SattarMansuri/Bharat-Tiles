@@ -78,10 +78,11 @@
 @media (width <=1536px) {
   .home {
     padding-bottom: 40px;
+    height: 100dvh;
   }
 
   .change {
-    margin-top: 220px;
+    margin-top: 20dvh;
   }
 
   .change h1 {
@@ -94,7 +95,7 @@
   }
 
   .lower {
-    margin-top: 190px;
+    margin-top: 20dvh;
   }
 }
 
@@ -104,7 +105,7 @@
   }
 
   .change {
-    margin-top: 175px;
+    /* margin-top: 175px; */
   }
 
   .change h3 {
@@ -115,17 +116,9 @@
     font-size: 96px;
     height: 96px;
   }
-
-  .lower {
-    margin-top: 155px;
-  }
 }
 
 @media (width <=1024px) {
-
-  .change {
-    margin-top: 150px;
-  }
 
   .change h3 {
     font-size: 46px;
@@ -134,10 +127,6 @@
   .change h1 {
     font-size: 78px;
     height: 78px;
-  }
-
-  .lower {
-    margin-top: 150px;
   }
 }
 

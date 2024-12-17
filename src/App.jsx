@@ -40,7 +40,7 @@ function App() {
             <Products />
             <Design image1={image4} image2={image5} image3={image6} />
             <Project />
-            <Manufacturing /><br />
+            <Manufacturing />
             <Footer />
           </>
       }
