@@ -1,10 +1,8 @@
 .main {
   background-color: #2A2523;
   scrollbar-width: none;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
-  position: sticky;
-  top: 0%;
   height: 100vh;
   padding-top: 50px;
 }
@@ -82,38 +80,42 @@
   min-width: 90%;
 }
 
-.mid {
+.sliding {
   display: none;
 }
 
 @media (width <=1536px) {
   .main {
+    height: 100vh;
     padding-top: 40px;
-    min-height: 800px;
+  }
+
+  .upper h2 {
+    margin-block: 40px;
   }
 
   .card1 {
-    top: 60%;
+    top: 65%;
   }
 
   .card2 {
-    top: 60%;
+    top: 65%;
   }
 
   .card3 {
-    top: 60%;
+    top: 65%;
   }
 
   .card4 {
-    top: 60%;
+    top: 65%;
   }
 
   .card5 {
-    top: 60%;
+    top: 65%;
   }
 
   .card6 {
-    top: 60%;
+    top: 65%;
   }
 
 }
@@ -121,7 +123,6 @@
 @media (width <=1280px) {
   .main {
     padding-top: 40px;
-    min-height: 687px;
   }
 
   .upper h2 {
@@ -137,38 +138,10 @@
     width: 100%;
     line-height: 20px;
   }
-
-  .card1 {
-    top: 65%;
-  }
-
-  .card2 {
-    top: 65%;
-  }
-
-  .card3 {
-    top: 65%;
-  }
-
-  .card4 {
-    top: 65%;
-  }
-
-  .card5 {
-    top: 65%;
-  }
-
-  .card6 {
-    top: 65%;
-  }
 }
 
 
 @media (width <=1024px) {
-  .main {
-    padding-top: 40px;
-    min-height: 650px;
-  }
 
   .info {
     margin-bottom: 100px;
@@ -185,32 +158,17 @@
 }
 
 @media (width <=900px) {
+  .scrolling {
+    display: none;
+  }
+
   .main {
     height: auto;
   }
 
-  .card1 {
-    display: none;
-  }
-
-  .card2 {
-    display: none;
-  }
-
-  .card3 {
-    display: none;
-  }
-
-  .card4 {
-    display: none;
-  }
-
-  .card5 {
-    display: none;
-  }
-
-  .card6 {
-    display: none;
+  .sliding {
+    display: block;
+    margin-top: -100px;
   }
 
   .mid {
@@ -225,5 +183,9 @@
   .info {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .sliding {
+    margin-top: -180px;
   }
 }
