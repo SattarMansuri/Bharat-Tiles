@@ -39,6 +39,7 @@
 
 .info h2 {
   font-weight: 500;
+  font-family: bentonSans;
 }
 
 @keyframes colors {
@@ -181,7 +182,7 @@
 @media (width <=640px) {
   .card {
     height: 650px;
-    min-width: 300px;
+    min-width: 80%;
   }
 
   .card h1 {

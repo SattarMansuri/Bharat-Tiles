@@ -175,6 +175,8 @@
     display: flex;
     overflow-x: scroll;
     scrollbar-width: none;
+    margin-bottom: 30px;
+    margin-left: 5%;
   }
 }
 

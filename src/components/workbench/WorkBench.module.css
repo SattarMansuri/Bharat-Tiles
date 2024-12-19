@@ -132,11 +132,11 @@
 
 @media (width <=1536px) {
   .workbench {
-    padding-block: 100px;
+    padding-block: 80px;
   }
 
   .workbench h2 {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .main {
@@ -155,11 +155,7 @@
 
 @media (width <=1280px) {
   .workbench {
-    padding-block: 90px;
-  }
-
-  .workbench h2 {
-    margin-top: 40px;
+    padding-block: 70px;
   }
 
   .moto {
@@ -237,8 +233,8 @@
   }
 
   .workbench {
-    padding-bottom: 0;
     padding-inline: 0;
+    padding-block: 50px;
   }
 
   .workbench h2 {
@@ -298,6 +294,15 @@
 @media (width <=680px) {
   .imagediv {
     height: 100px;
+  }
+
+  .workbench {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  .workbench h2 {
+    margin-top: 20px;
   }
 
   .imagediv button {

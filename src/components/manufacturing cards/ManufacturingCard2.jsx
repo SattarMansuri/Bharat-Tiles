@@ -5,14 +5,20 @@ import ParaSmall from '../small components/ParaSmall'
 const ManufacturingCard2 = ({ sr, name, para, image }) => {
   return (
     <div className={styles.card}>
-      <div>
-        <div className={styles.upper}>
+      {/* <div> */}
+      <div className={styles.upper}>
+        <div className={styles.outerline}>
+          <div className={styles.innerline}>
+          </div>
+        </div>
+        <div className={styles.head}>
           <h3> {sr} </h3> <span>{name}</span>
         </div>
-        <ParaSmall para={para} />
       </div>
+      <ParaSmall para={para} />
+      {/* </div> */}
       <img src={image} alt={`${name} image`} />
-    </div>
+    </div >
   )
 }
 

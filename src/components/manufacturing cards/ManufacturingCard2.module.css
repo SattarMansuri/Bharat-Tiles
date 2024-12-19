@@ -1,11 +1,10 @@
 .card {
   height: 647px;
   min-width: 50%;
-  padding: 20px 15px;
+  padding-block: 10px;
   background-color: #2A2523;
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
 }
 
@@ -18,7 +17,20 @@
   color: #8FDEAA;
 }
 
-.upper {
+.outerline {
+  background-color: #8FDEAA;
+  height: 1.5px;
+  margin-bottom: 20px;
+}
+
+.innerline {
+  background-color: #8FDEAA;
+  height: 3px;
+  width: 40%;
+}
+
+.head {
+  padding-left: 2%;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -29,12 +41,15 @@
   font-size: 16px;
   line-height: 25px;
   margin-top: 30px;
+  padding-left: 2%;
+  width: 90%;
 }
 
 .card img {
-  width: 100%;
-  height: 68%;
+  width: 90%;
+  height: 60%;
   border-radius: 1rem;
+  margin-left: 2%;
 }
 
 @media (width <=768px) {
@@ -47,14 +62,10 @@
   .card {
     min-width: 90%;
   }
-
-  .card p {
-    height: auto;
-  }
 }
 
 @media (width <=535px) {
-  .upper {
+  .head {
     gap: 40px;
   }
 
@@ -79,7 +90,7 @@
     font-size: 26px;
   }
 
-  .upper {
+  .head {
     gap: 30px;
   }
 

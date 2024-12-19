@@ -76,6 +76,10 @@
     text-align: left;
   }
 
+  .years {
+    padding-block: 30px;
+  }
+
   .logo {
     margin-block: 90px;
   }
@@ -83,14 +87,10 @@
   .logo img {
     width: 30%;
   }
-
-  .years {
-    padding-top: 100px;
-  }
 }
 
 @media (width <=680px) {
   .logo {
-    margin-block: 70px;
+    margin-block: 50px;
   }
 }

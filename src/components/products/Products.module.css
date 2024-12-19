@@ -229,6 +229,10 @@
     min-width: 300px;
   }
 
+  .mid {
+    margin-block: 30px;
+  }
+
   .menu h1 {
     padding-top: 100px;
     margin-left: 10%;
