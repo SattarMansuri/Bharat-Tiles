@@ -1,8 +1,16 @@
-.workbench {
+section {
   background-color: #F4F4F4;
+}
+
+.workbench {
   padding-block: 100px;
   position: relative;
   padding-inline: 5%;
+}
+
+.verticalLine {
+  background-color: #e2e4e5;
+  height: 250vh;
 }
 
 .workbench h2 {
@@ -185,6 +193,14 @@
   .colors div {
     height: 13px;
   }
+
+  .size p {
+    line-height: 25px;
+  }
+
+  .arrow {
+    font-size: 14px;
+  }
 }
 
 @media (width <=1024px) {
@@ -224,6 +240,10 @@
 
   .colors div {
     height: 10px;
+  }
+
+  .workbench button {
+    font-size: 11px;
   }
 }
 

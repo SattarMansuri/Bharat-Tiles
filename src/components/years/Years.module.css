@@ -1,7 +1,15 @@
+.yearsSection {
+  background-color: #FEFEF2;
+}
+
 .years {
   padding-block: 50px;
-  background-color: #FEFEF2;
   padding-inline: 5%;
+  position: relative;
+}
+
+.verticalLine {
+  min-height: 180vh;
 }
 
 .years h2 {

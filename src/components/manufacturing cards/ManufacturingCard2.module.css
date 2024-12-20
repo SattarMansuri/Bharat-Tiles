@@ -56,11 +56,20 @@
   .card {
     min-width: 65%;
   }
+
+  .card p {
+    font-size: 16px;
+    font-weight: 300;
+  }
 }
 
 @media (width <=640px) {
   .card {
     min-width: 90%;
+  }
+
+  .card p {
+    font-size: 14px;
   }
 }
 
@@ -74,6 +83,7 @@
     margin-top: 15px;
     margin-bottom: 20px;
     padding: 10px;
+    font-size: 12px;
   }
 
   .card img {

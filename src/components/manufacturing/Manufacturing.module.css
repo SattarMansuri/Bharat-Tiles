@@ -5,10 +5,17 @@
   overflow-x: hidden;
   height: 100vh;
   padding-top: 50px;
+  z-index: 1;
+}
+
+.scrolling {
+  scrollbar-width: none;
+  z-index: 1;
 }
 
 .upper span {
   color: #ffffff;
+  font-weight: 300;
 }
 
 .upper {
@@ -27,6 +34,12 @@
   display: flex;
   font-size: 16px;
   gap: 200px;
+  z-index: 1;
+}
+
+.verticalLine {
+  background-color: #322c3a;
+  max-height: 100vh;
 }
 
 .info p {
@@ -153,7 +166,7 @@
 
   .info p {
     width: 100%;
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
@@ -190,4 +203,22 @@
   .sliding {
     margin-top: -180px;
   }
+
+  .info p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+@media (width <=640px) {
+  .info p {
+    font-size: 14px;
+  }
+}
+
+@media (width <=495px) {
+  .info p {
+    font-size: 12px;
+  }
+
 }

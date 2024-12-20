@@ -85,7 +85,7 @@
 
 @media (width <=1280px) {
   .info p {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 21px;
   }
 
@@ -100,7 +100,7 @@
 
 @media (width <=1024px) {
   .info p {
-    font-size: 11px;
+    font-size: 10px;
     line-height: 19px;
   }
 

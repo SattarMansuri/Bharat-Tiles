@@ -1,6 +1,7 @@
 .card {
   height: 944px;
   min-width: 557px;
+  z-index: 1;
 }
 
 .mainImage {
@@ -139,6 +140,12 @@
   }
 }
 
+@media (width <=1280px) {
+  .card span {
+    font-size: 12px;
+  }
+}
+
 @media (width <=1024px) {
   .card {
     height: 600px;
@@ -155,6 +162,12 @@
 
   .card span {
     font-size: 12px;
+  }
+}
+
+@media (width <=1024px) {
+  .card span {
+    font-size: 10px;
   }
 }
 
@@ -194,5 +207,15 @@
     .arrow {
       margin-left: 15px;
     }
+  }
+
+  .card span {
+    font-size: 12px;
+  }
+}
+
+@media (width <=495px) {
+  .card span {
+    font-size: 10px;
   }
 }

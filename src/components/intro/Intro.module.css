@@ -1,3 +1,7 @@
+section {
+  position: relative;
+}
+
 .intro {
   padding-inline: 5%;
   padding-block: 100px;
@@ -17,11 +21,13 @@
 
 .left {
   width: 45%;
+  z-index: 1;
 }
 
 .right {
   width: 50%;
   overflow: hidden;
+  z-index: 1;
 }
 
 .paraBig {
@@ -85,7 +91,7 @@
   }
 
   .paraSmall p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 23px;
   }
 }
@@ -148,15 +154,20 @@
     padding-block: 20px;
   }
 
+  .paraBig {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
   .paraSmall p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 23px;
   }
 }
 
 @media (width <=495px) {
   .paraSmall p {
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 22px;
   }
 }

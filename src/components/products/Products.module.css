@@ -5,6 +5,11 @@
 
 .upper {
   padding-inline: 5%;
+  z-index: 1;
+}
+
+.verticalLine {
+  min-height: 180vh;
 }
 
 .mid {
@@ -17,6 +22,7 @@
   width: 29%;
   margin-top: 100px;
   margin-left: 200px;
+  z-index: 1;
 }
 
 .mid button {
@@ -32,6 +38,7 @@
   padding-left: 30px;
   gap: 5px;
   font-weight: 500;
+  z-index: 1;
 }
 
 
@@ -59,6 +66,7 @@
   margin-top: 50px;
   margin-bottom: 120px;
   padding-left: 5%;
+  z-index: 1;
 }
 
 .menu {
@@ -68,6 +76,7 @@
   padding-inline: 5%;
   padding-top: 10%;
   border-radius: 1rem;
+  z-index: 1;
 }
 
 .menu h1 {

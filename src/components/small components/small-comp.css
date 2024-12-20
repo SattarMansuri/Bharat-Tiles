@@ -79,7 +79,7 @@
 .color-text {
   writing-mode: vertical-lr;
   rotate: 180deg;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   cursor: default;
 }
@@ -131,6 +131,10 @@
     font-size: 13px;
     line-height: 20px;
   }
+
+  .color-text {
+    font-size: 13px;
+  }
 }
 
 @media (width <=1280px) {
@@ -146,7 +150,7 @@
 
   .para-small {
     font-size: 11px;
-    line-height: 20px;
+    line-height: 18px;
   }
 
   .project {
@@ -169,6 +173,10 @@
 
   .footer-image {
     border-radius: 70px 70px 0px 0px;
+  }
+
+  .color-text {
+    font-size: 11px;
   }
 }
 
@@ -196,17 +204,21 @@
     height: 190px;
   }
 
+  .color-text {
+    font-size: 9px;
+  }
+
   .lists {
     font-size: 9px;
     line-height: 15px;
   }
 
-  .intro-span {
-    font-size: 13px;
-  }
-
   .footer-image {
     border-radius: 60px 60px 0px 0px;
+  }
+
+  .intro-span {
+    font-size: 9px;
   }
 }
 
@@ -255,8 +267,8 @@
   }
 
   .para-big {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .para-small {
@@ -273,18 +285,23 @@
     border-radius: 35px 35px 0px 0px;
     padding-top: 450px;
   }
+
+  .lists {
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
 
 @media (width <=495px) {
 
   .para-big {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .para-small {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 18px;
   }
 
   .project {
@@ -295,5 +312,9 @@
     min-height: 510px;
     border-radius: 25px 25px 0px 0px;
     padding-top: 400px;
+  }
+
+  .lists {
+    font-size: 12px;
   }
 }
