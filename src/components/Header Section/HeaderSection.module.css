@@ -32,9 +32,9 @@
   align-items: center;
 }
 
-.navigations a {
-  cursor: pointer;
+.navs {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .hammenu {
@@ -66,10 +66,6 @@
   background-color: #ffffff16;
   display: none;
   top: 0;
-}
-
-.sidebar a {
-  color: #ffffff;
 }
 
 @media (width <=1536px) {
@@ -129,7 +125,7 @@
     background-color: #ffffff8d;
   }
 
-  .sidebar a {
+  .navs {
     color: #000000;
   }
 }

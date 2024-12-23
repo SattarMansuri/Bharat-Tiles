@@ -5,7 +5,7 @@ import product1 from '../../assets/images/product-img1.png'
 import product2 from '../../assets/images/product-img2.png'
 import product3 from '../../assets/images/product-img3.png'
 import product4 from '../../assets/images/product-img4.png'
-import ParaSmall from '../small components/ParaSmall';
+import ParaSmall from '../Small Components/ParaSmall';
 
 const ProductsCard = ({ image, head }) => {
   return (

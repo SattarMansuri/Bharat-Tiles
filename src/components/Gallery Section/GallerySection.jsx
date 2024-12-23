@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
-import styles from './Design.module.css'
+import styles from './GallerySection.module.css'
 
-const Design = ({ image1, image2, image3 }) => {
+const GallerySection = ({ image1, image2, image3 }) => {
   const [image, setImage] = useState(image1)
   const image1Ref = useRef()
   const image2Ref = useRef()
@@ -52,4 +52,4 @@ const Design = ({ image1, image2, image3 }) => {
   )
 }
 
-export default Design
+export default GallerySection

@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import styles from './Home.module.css'
-import Featured from '../featured component/Featured'
-import Header from '../header/Header'
+import styles from './HeroSection.module.css'
+import Featured from '../Featured Component/Featured'
+import Header from '../Header Section/HeaderSection'
 
-const Home = () => {
+const HeroSection = () => {
   return (
     <section className={styles.home}>
       <Header />
@@ -22,4 +22,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HeroSection

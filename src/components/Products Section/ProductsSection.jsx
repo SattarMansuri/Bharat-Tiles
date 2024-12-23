@@ -1,15 +1,15 @@
 import React from 'react'
-import styles from './Products.module.css'
-import ProductsCard from '../product card/ProductsCard'
+import styles from './ProductsSection.module.css'
+import ProductsCard from '../Products Card/ProductsCard'
 import { PRODUCTS } from '../utils'
-import IntroSpan from '../small components/IntroSpan'
+import IntroSpan from '../Small Components/IntroSpan'
 import { IoArrowForwardSharp } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa6";
-import Heading from '../small components/Heading'
-import ParaSmall from '../small components/ParaSmall'
+import Heading from '../Small Components/Heading'
+import ParaSmall from '../Small Components/ParaSmall'
 import menu from '../../assets/images/menu.svg'
 
-const Products = () => {
+const ProductsSection = ({ heading, para }) => {
   return (
     <section>
       <div className="lines">
@@ -22,8 +22,8 @@ const Products = () => {
         <div className={styles.upper}>
           <IntroSpan leftText={'69 products'} midText={'30 colors'} rightText={'100 years'} />
           <div className={styles.mid}>
-            <Heading heading={'Products'} />
-            <ParaSmall para={'From exquisite handcrafted cement tiles that bring timeless beauty to your space, to elegant terrazzo floors that exude grandeur, our collection of decorative concrete, outdoor floors, micro cement overlays, wallpapers, bespoke products, and more, offers limitless design possibilities. Let your imagination soar as you discover the perfect flooring solution that transforms ordinary spaces into extraordinary works of art.'} />
+            <Heading heading={heading} />
+            <ParaSmall para={para} />
             <button>
               View all products < IoArrowForwardSharp className={styles.btnArrow} />
             </button>
@@ -46,4 +46,4 @@ const Products = () => {
   )
 }
 
-export default Products
+export default ProductsSection

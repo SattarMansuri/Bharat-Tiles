@@ -10,9 +10,9 @@ const Featured = ({ name, design, flexDirection, alignItems, publish }) => {
     <div className={styles.featured}>
       <div style={{ flexDirection: flexDirection }} className={styles.featuredDiv}>
         <div className={styles.featuredImg}>
-          <img src={gallery1} alt="" />
-          <img src={gallery2} alt="" />
-          <img src={gallery3} alt="" />
+          <img src={gallery1} alt="Design Image" />
+          <img src={gallery2} alt="Design Image" />
+          <img src={gallery3} alt="Design Image" />
         </div>
         <div className={styles.bottom}>
           <p>{name}</p>

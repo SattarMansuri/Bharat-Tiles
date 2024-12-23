@@ -1,11 +1,10 @@
 import React from 'react'
 import styles from './ManufacturingCard2.module.css'
-import ParaSmall from '../small components/ParaSmall'
+import ParaSmall from '../Small Components/ParaSmall'
 
 const ManufacturingCard2 = ({ sr, name, para, image }) => {
   return (
     <div className={styles.card}>
-      {/* <div> */}
       <div className={styles.upper}>
         <div className={styles.outerline}>
           <div className={styles.innerline}>
@@ -16,7 +15,6 @@ const ManufacturingCard2 = ({ sr, name, para, image }) => {
         </div>
       </div>
       <ParaSmall para={para} />
-      {/* </div> */}
       <img src={image} alt={`${name} image`} />
     </div >
   )

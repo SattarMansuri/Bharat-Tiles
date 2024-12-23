@@ -10,6 +10,45 @@ import hardening from '../assets/images/hardening.png'
 import hydrolysis from '../assets/images/hydrolysis.png'
 import drying from '../assets/images/drying.png'
 
+export const NAVIGATION_LINKS = [
+  {id: 1, name: 'Products'},
+  {id: 2, name: 'Services'},
+  {id: 3, name: 'About'},
+  {id: 4, name: 'Inspiration'}
+]
+
+export const INTRO_SECTION_1 = {
+heading: 'Bharat Flooring and Tiles',
+paraBig: 'For over a century, Bharat Floorings & Tiles has been the epitome of quality in handmade tile manufacturers in India.',
+paraSmall: `Our dedicated commitment to innovation ensures you're choosing the best handcrafted cement tiles in the market. Heritage buildings and prestigious locations across the country boast Bharat Floorings & Tiles that have maintained their original charm despite decades of heavy use - a testament to our quality, durability and handmade tiles texture.`,
+paraFooter: 'A century year old technique which is still relevant'
+}
+
+export const INTRO_SECTION_2 ={
+  heading: `We blend computer-aided design with craftsmanship and the end result is a tailor-made custom tile which will last for generations. Already 100 years and counting...`
+}
+
+export const MANUFACTURING_SECTION = {
+  heading: 'Manufacturing process',
+  paraHead1 : 'Output is a beautiful tile that lasts forever',
+  para1: `Over the decades Bharat has laid some of the best-known floors in India’s landmark buildings: from palaces of Maharajas and Raj Bhavans to prominent residences, hotels, hospitals, clubs, offices, factories, co-operative housing societies, educational and religious institutions, airports, railways etc.`,
+  paraHead2: 'Each step has to be done well',
+  para2: `The best European technologies were brought and modified to create a unique product suited to Indian conditions. Recognising that a good floor is only achieved with a good product that is installed correctly and maintained properly, the company has sister companies which do high quality installation of all types of floorings, a range of civil work, floor maintenance and general cleaning.`
+}
+
+export const WORKBENCH_SECTION = {
+  heading1: 'Workbench',
+  heading2: 'Workshop',
+  paraBig: 'We encourage our customers to look at our designer tile collections, play with the colours and patterns, and come up with unique handmade tile selections.',
+  paraSmall1: 'Anuiom (Type D)',
+  paraSmall2: 'Anulom is our stunning hexagonal rhythm 3D Tile Collection, where the artistry of design meets the allure of dimensionality, creating a mesmerizing visual experience for your spaces.'
+}
+
+export const PRODUCTS_SECTION = {
+  heading: 'Products',
+  para: 'From exquisite handcrafted cement tiles that bring timeless beauty to your space, to elegant terrazzo floors that exude grandeur, our collection of decorative concrete, outdoor floors, micro cement overlays, wallpapers, bespoke products, and more, offers limitless design possibilities. Let your imagination soar as you discover the perfect flooring solution that transforms ordinary spaces into extraordinary works of art.'
+}
+
 export const PRODUCTS = [
   {id: 1, image: designer, head: 'Designer' },
   {id: 2, image: terrazo, head: 'Terrazo' },
@@ -96,42 +135,42 @@ export const COLORS = [
   {id: 29, bgCol: '#414047', color: '#737279', name: 'Black'},
 ]
 
-export const FIRST_LIST =[
+export const ABOUT_LIST =[
   {id: 1, name: 'ABOUT US'},
   {id: 2, name: 'HISTORY'},
   {id: 3, name: 'MANAGEMENT'},
   {id: 4, name: 'QUALITY POLICIES'},
 ]
 
-export const SECOND_LIST =[
+export const CORPORATE_LIST =[
   {id: 1, name: 'CORPORATE VIDEOS'},
   {id: 2, name: 'SITEMAP'},
   {id: 3, name: 'ALL COLLECTIONS'},
   {id: 4, name: 'MANUFACTURING PROCESS'},
 ]
 
-export const THIRD_LIST =[
+export const MAINTENANCE_LIST =[
   {id: 1, name: 'MAINTENANCE'},
   {id: 2, name: 'COLOUR CHART'},
   {id: 3, name: 'FAQ'},
   {id: 4, name: 'ORDER SAMPLE'},
 ]
 
-export const FOURTH_LIST =[
+export const FLOOR_LIST =[
   {id: 1, name: 'FLOOR DESIGN'},
   {id: 2, name: 'NEW TILE DESIGN'},
   {id: 3, name: 'CIVIL CONTRACTING'},
   {id: 4, name: 'MISSION AND VISION'},
 ]
 
-export const FIFTH_LIST =[
+export const VALUES_LIST =[
   {id: 1, name: 'VALUES & PHILOSOPHY'},
   {id: 2, name: 'PRESS AND MEDIA'},
   {id: 3, name: 'EVENT AND PROMOTIONS'},
   {id: 4, name: 'CAREERS'},
 ]
 
-export const SIXTH_LIST =[
+export const AWARDS_LIST =[
   {id: 1, name: 'AWARDS'},
   {id: 2, name: 'CLIENT LIST'},
   {id: 3, name: 'TESTIMONIAL VIDEOS'},

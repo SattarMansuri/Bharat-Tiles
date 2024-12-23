@@ -1,6 +1,6 @@
 import React from 'react'
 import './small-comp.css'
-import Featured from '../featured component/Featured'
+import Featured from '../Featured Component/Featured'
 
 
 const Project = () => {

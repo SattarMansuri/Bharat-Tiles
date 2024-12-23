@@ -1,13 +1,12 @@
 import React from 'react'
-import styles from './Footer.module.css'
-import Colors from '../small components/Colors'
-import { ALL_LISTS, COLORS, FIFTH_LIST, FIRST_LIST, FOURTH_LIST, SECOND_LIST, SIXTH_LIST, THIRD_LIST } from '../utils'
-import Lists from '../small components/Lists'
-import ParaSmall from '../small components/ParaSmall'
+import styles from './FooterSection.module.css'
+import Colors from '../Small Components/Colors'
+import Lists from '../Small Components/Lists'
+import ParaSmall from '../Small Components/ParaSmall'
 import logo from '../../assets/images/logo.svg'
 import darkLogo from '../../assets/images/logo-dark.svg'
 
-const Footer = () => {
+const FooterSection = ({ colors, list1, list2, list3, list4, list5, list6, allList }) => {
   return (
     <footer className={styles.main}>
       <div className={styles.footer}>
@@ -16,7 +15,7 @@ const Footer = () => {
             <img src={logo} alt='Bharat flooring and tiles logo' />
           </div>
           {
-            COLORS.map(({ id, name, color, bgCol }) => (
+            colors.map(({ id, name, color, bgCol }) => (
               <Colors key={id} name={name} color={color} bgCol={bgCol} />
             ))
           }
@@ -27,42 +26,42 @@ const Footer = () => {
         <div className={styles.navigations}>
           <ul>
             {
-              FIRST_LIST.map(({ id, name }) => (
+              list1.map(({ id, name }) => (
                 <Lists key={id} name={name} />
               ))
             }
           </ul>
           <ul>
             {
-              SECOND_LIST.map(({ id, name }) => (
+              list2.map(({ id, name }) => (
                 <Lists key={id} name={name} />
               ))
             }
           </ul>
           <ul>
             {
-              THIRD_LIST.map(({ id, name }) => (
+              list3.map(({ id, name }) => (
                 <Lists key={id} name={name} />
               ))
             }
           </ul>
           <ul>
             {
-              FOURTH_LIST.map(({ id, name }) => (
+              list4.map(({ id, name }) => (
                 <Lists key={id} name={name} />
               ))
             }
           </ul>
           <ul>
             {
-              FIFTH_LIST.map(({ id, name }) => (
+              list5.map(({ id, name }) => (
                 <Lists key={id} name={name} />
               ))
             }
           </ul>
           <ul>
             {
-              SIXTH_LIST.map(({ id, name }) => (
+              list6.map(({ id, name }) => (
                 <Lists key={id} name={name} />
               ))
             }
@@ -71,7 +70,7 @@ const Footer = () => {
         <div className={styles.colList}>
           <ul>
             {
-              ALL_LISTS.map(({ id, name }) => (
+              allList.map(({ id, name }) => (
                 <Lists key={id} name={name} />
               ))
             }
@@ -83,4 +82,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterSection

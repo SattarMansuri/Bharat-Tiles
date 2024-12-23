@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from './WorkBench.module.css'
+import styles from './WorkBenchSection.module.css'
 import tile from '../../assets/images/tile.svg'
 import workBench from '../../assets/images/work-bench.png'
-import Heading from '../small components/Heading'
-import ParaBig from '../small components/ParaBig'
-import ParaSmall from '../small components/ParaSmall'
+import Heading from '../Small Components/Heading'
+import ParaBig from '../Small Components/ParaBig'
+import ParaSmall from '../Small Components/ParaSmall'
 import { IoArrowForwardSharp } from "react-icons/io5";
 
-const WorkBench = () => {
+const WorkbenchSection = ({ heading1, heading2, paraBig, paraSmall1, paraSmall2 }) => {
   return (
     <section>
       <div className="lines">
@@ -18,13 +18,13 @@ const WorkBench = () => {
       </div>
       <div className={styles.workbench}>
         <div className={styles.work}>
-          <Heading heading={'Workbench'} />
+          <Heading heading={heading1} />
         </div>
         <div className={styles.workshop}>
-          <Heading heading={'Workshop'} />
+          <Heading heading={heading2} />
         </div>
         <div className={styles.moto}>
-          <ParaBig para={'We encourage our customers to look at our designer tile collections, play with the colours and patterns, and come up with unique handmade tile selections.'} />
+          <ParaBig para={paraBig} />
         </div>
         <div className={styles.updiv}>
           <span>Change tile</span>
@@ -39,11 +39,11 @@ const WorkBench = () => {
           </div>
           <div className={styles.right}>
             <div className={styles.para}>
-              <ParaSmall para={'Anuiom (Type D)'} />
-              <ParaSmall para={'Anulom is our stunning hexagonal rhythm 3D Tile Collection, where the artistry of design meets the allure of dimensionality, creating a mesmerizing visual experience for your spaces.'} />
+              <ParaSmall para={paraSmall1} />
+              <ParaSmall para={paraSmall2} />
             </div>
             <div className={styles.mid}>
-              <img src={tile} alt="" />
+              <img src={tile} alt="tile image" />
             </div>
             <div className={styles.size}>
               <div>
@@ -74,4 +74,4 @@ const WorkBench = () => {
   )
 }
 
-export default WorkBench
+export default WorkbenchSection
